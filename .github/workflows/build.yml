@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master  # Adjust branch name as needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Specify the operating system for the runner
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Checkout the repository's code
+
+      - name: Set up C toolchain
+        uses: actions/setup-node@v2  # You can use this or another suitable setup action
+
+      - name: Build with make
+        run: make  # Run make to build the project
