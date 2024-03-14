@@ -20,10 +20,11 @@ To build the project, execute the following steps:
 2. Compile the source files using a C compiler:
 
    ```bash
-   gcc -o bin/program src/main.c src/server.c
+   make
 This command compiles main.c and server.c into an executable named program in the bin directory.
 
 ## Additional Notes
 
 laba3 task2 github link: [Vasyalama/tpmp-lab3-task2.git](https://github.com/Vasyalama/tpmp-lab3-task2.git)
+
 lab3 task1 github link: [Vasyalama/lab3-task1-gr13-sandovich.git](https://github.com/Vasyalama/lab3-task1-gr13-sandovich.git)
