@@ -9,3 +9,9 @@ obj/server.o: src/server.c include/interface.h
 
 clean:
 	rm -rf obj/*.o bin/program
+
+check: 
+	shell: /usr/bin/bash -e {0}
+
+distcheck:
+	shell: /usr/bin/bash -e {0}

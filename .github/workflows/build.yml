@@ -10,11 +10,10 @@ jobs:
     runs-on: ubuntu-latest  # Specify the operating system for the runner
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2  # Checkout the repository's code
-
-      - name: Set up C toolchain
-        uses: actions/setup-node@v2  # You can use this or another suitable setup action
-
-      - name: Build with make
-        run: make  # Run make to build the project
+    	- uses: actions/checkout@v2  
+	- name: make
+	  run: make
+	- name: make check
+	  run: make check
+	- name: make distcheck
+	  run: make distcheck
