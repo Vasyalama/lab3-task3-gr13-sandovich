@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "../include/interface.h"
+#include "../include/marshrut.h"
 
 MARSHRUT* createArrayOfMarshrut(int amount) {
   MARSHRUT* arr = (MARSHRUT*)malloc(amount * sizeof(MARSHRUT));

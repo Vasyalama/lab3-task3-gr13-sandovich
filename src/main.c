@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../include/interface.h"
+#include "../include/marshrut.h"
 
 int main(void) {
 

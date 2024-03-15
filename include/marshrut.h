@@ -1,5 +1,5 @@
-#ifndef LAB3_3_INTERFACE_H
-#define LAB3_3_INTERFACE_H
+#ifndef LAB3_3_MARSHRUT_H
+#define LAB3_3_MARSHRUT_H
 
 typedef struct{
   int number;
