@@ -4,7 +4,7 @@ bin/program: obj/main.o obj/marshrut.o
 obj/main.o: src/main.c include/marshrut.h
 	gcc -o obj/main.o -c src/main.c
 
-obj/server.o: src/marshrut.c include/marshrut.h
+obj/marshrut.o: src/marshrut.c include/marshrut.h
 	gcc -o obj/marshrut.o -c src/marshrut.c
 
 clean:
